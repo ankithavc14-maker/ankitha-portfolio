@@ -1,0 +1,25 @@
+PORTOO3 — FINAL PORTFOLIO UPDATE — 2026-08-19
+
+Changes:
+1. Restored the INITIALIZING cinematic boot animation.
+2. Hero image and ANKITHA CHANDAN name enter together from above.
+3. Hero portrait is more visible behind the text, with a lighter blend.
+4. Hero title and overall hero sizing reduced for a cleaner viewport fit.
+5. Removed the moving particle/dot field from the hero 3D scene.
+6. Removed the “3D / AI / BACKEND” label.
+7. Kept the remaining 3D scene and visual direction unchanged.
+8. Removed the extra single-certificate archive cover; all certificate cards remain.
+9. All 8 projects remain in the project data.
+10. Added richer, realistic dashboard-style cover artwork for ChromaVision,
+    Employee Training System, Face Recognition System, and Ghibli Art Generator.
+11. Contact success/error rendering is mutually exclusive so a successful
+    submission cannot also show the red error message.
+12. Smoothed project, stack, certificate, and button transitions.
+13. package.json remains at the project root.
+
+RUN:
+  npm install
+  npm run dev
+
+BUILD:
+  npm run build

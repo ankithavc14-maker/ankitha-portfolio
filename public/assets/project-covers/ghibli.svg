@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0d0a1b"/><stop offset="1" stop-color="#08140f"/></linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#8b5cf6"/><stop offset="1" stop-color="#22d3ee"/></linearGradient>
+  <filter id="shadow"><feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#000" flood-opacity=".45"/></filter>
+</defs>
+<rect width="1200" height="700" fill="url(#bg)"/>
+<rect x="32" y="28" width="1136" height="644" rx="28" fill="#070910" stroke="#ffffff" stroke-opacity=".12"/>
+<text x="72" y="82" fill="#a78bfa" font-family="monospace" font-size="16" letter-spacing="4">AI / IMAGE • TRANSFORMATION WORKFLOW</text>
+<text x="72" y="130" fill="#f8fafc" font-family="Arial,sans-serif" font-size="34" font-weight="700">Ghibli Art Generator</text>
+
+<rect x="72" y="165" width="1056" height="455" rx="20" fill="#0c0a17" stroke="#ffffff" stroke-opacity=".09"/>
+<rect x="98" y="194" width="620" height="390" rx="16" fill="#111020"/>
+<rect x="124" y="220" width="568" height="302" rx="12" fill="#1b1830"/>
+<path d="M124 430 C220 350 300 470 405 395 C510 320 590 390 692 320 L692 522 L124 522Z" fill="#1b4535" opacity=".9"/>
+<circle cx="540" cy="300" r="48" fill="#c4b5fd" opacity=".35"/>
+<circle cx="600" cy="260" r="28" fill="#fff" opacity=".13"/>
+<path d="M220 360 Q300 290 380 360 T540 360" fill="none" stroke="#8b7bd8" stroke-opacity=".65" stroke-width="12"/>
+<rect x="124" y="540" width="568" height="24" rx="8" fill="#0a0c13"/>
+<text x="148" y="557" fill="#71717a" font-family="monospace" font-size="10">PROMPT → cinematic countryside portrait, soft painted lighting</text>
+<rect x="750" y="194" width="338" height="390" rx="16" fill="#111020"/>
+<text x="778" y="230" fill="#71717a" font-family="monospace" font-size="11">GENERATION WORKSPACE</text>
+<text x="778" y="275" fill="#f8fafc" font-family="Arial" font-size="22" font-weight="700">Ghibli Art</text>
+<text x="778" y="303" fill="#a1a1aa" font-family="monospace" font-size="11">AI IMAGE TRANSFORM</text>
+<rect x="778" y="338" width="278" height="46" rx="10" fill="#19182a" stroke="#fff" stroke-opacity=".08"/>
+<text x="798" y="366" fill="#c4b5fd" font-family="monospace" font-size="11">STYLE: HAND-PAINTED</text>
+<rect x="778" y="402" width="278" height="9" rx="5" fill="#26233b"/><rect x="778" y="402" width="210" height="9" rx="5" fill="url(#accent)"/>
+<text x="778" y="447" fill="#a1a1aa" font-family="monospace" font-size="11">Inference</text><text x="986" y="447" fill="#22d3ee" font-family="monospace" font-size="11">READY</text>
+<rect x="778" y="482" width="278" height="50" rx="12" fill="url(#accent)"/>
+<text x="858" y="513" fill="#05060a" font-family="monospace" font-size="12" font-weight="700">GENERATE IMAGE</text>
+
+</svg>
