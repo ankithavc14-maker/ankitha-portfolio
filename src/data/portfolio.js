@@ -42,12 +42,37 @@ export const projects = [
     live: 'https://attendai-inky.vercel.app/', github: '', image: '/assets/attendai-cover.png',
   },
   {
-    id: 'faceauth', title: 'FaceAuthBank', category: 'BIOMETRIC BACKEND', accent: 'cyan',
-    description: 'A Flask REST API backend for biometric banking and transaction workflows with authentication, audit trails, and supporting ML analytics.',
-    stack: ['Python', 'Flask', 'MySQL', 'OpenCV', 'Scikit-learn'],
-    details: ['Deposit / withdrawal / transfer flows', 'NEFT, FD and RD transaction modules', 'Authentication + audit trail', 'IsolationForest / KMeans / Linear Regression', 'dlib 128-D face embeddings'],
-    live: '', github: '', image: '/assets/project-covers/faceauth.svg',
-  },
+  id: 'faceauth',
+  title: 'FaceAuthBank',
+  category: 'BIOMETRIC BANKING',
+  accent: 'cyan',
+
+  description:
+    'A production-style biometric banking system that combines face authentication, liveness verification, secure transaction workflows, admin controls, audit logging, and ML-powered insights.',
+
+  stack: [
+    'Python',
+    'Flask',
+    'PostgreSQL',
+    'Neon',
+    'OpenCV',
+    'face_recognition',
+    'scikit-learn'
+  ],
+
+  details: [
+    'Face authentication + multi-frame liveness verification',
+    'Deposit, withdrawal, transfer and banking workflows',
+    'NEFT, FD and RD modules with transaction audit trails',
+    'Admin dashboard with account controls and ML insights',
+    'Isolation Forest anomaly detection + K-Means + Linear Regression',
+    '128-D dlib face embeddings with biometric transaction confirmation'
+  ],
+
+  live: 'https://faceauthbank.onrender.com/',
+  github: 'https://github.com/ankithavc14-maker/FaceAuthBank',
+  image: '/assets/project-covers/faceauth.svg',
+},
   {
     id: 'chromavision', title: 'ChromaVision', category: 'COMPUTER VISION', accent: 'cyan',
     description: 'A computer-vision color analysis application built around image processing and color classification workflows.',
